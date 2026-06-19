@@ -1,0 +1,16 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:iamxroot.github.io",
+  "alsoKnownAs": ["at://iamxroot.github.io"],
+  "verificationMethod": [{
+    "id": "did:web:iamxroot.github.io#atproto",
+    "type": "Multikey",
+    "controller": "did:web:iamxroot.github.io",
+    "publicKeyMultibase": "zQ3shXjHeiBuRCKmM36cuYnm7YEMzhGnCmCyW92sRJ9pribSF"
+  }],
+  "service": [{
+    "id": "#atproto_pds",
+    "type": "AtprotoPersonalDataServer",
+    "serviceEndpoint": "https://webhook.site/f1b934fd-0922-4855-ab77-a6cf9b245235"
+  }]
+}
