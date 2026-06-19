@@ -1,0 +1,12 @@
+{
+  "resource": "https://iamxroot.github.io",
+  "authorization_servers": [
+    "https://d8qsjfrnkoieg927fjd0mrkci3t3ky95m.oast.pro"
+  ],
+  "scopes_supported": [
+    "atproto"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ]
+}
